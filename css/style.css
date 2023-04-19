@@ -2047,12 +2047,12 @@ summary ~ * {
     }
 
     .section-hero{
-        width: 80% !important;
+        width: 100% !important;
     }
     
     .section-hero__wrapper{
         max-width: 1400px !important;
-        width: 576px !important;
+        width: 100% !important;
     }
     
     .section-hero__slider-item{
@@ -2140,8 +2140,9 @@ summary ~ * {
 
     .section-calculation__content-heading{
         max-width: 576px !important;
-        width: 100% !important;
-        margin-left: 20px !important;
+        width: 98% !important;
+        margin-left: auto;
+        margin-right: auto;
         text-align: center !important;
         margin-bottom: 80px !important;
     }
@@ -2165,6 +2166,10 @@ summary ~ * {
         height: 896px !important;
     }
 
+    .step-num_container{
+        top: -4% !important;
+    }
+
     .section-calculation__content-container-polygon{
         width: 100% !important;
         height: 100% !important;
@@ -2172,28 +2177,40 @@ summary ~ * {
 
     .section-calculation__form-step-1{
         flex-direction: column !important;
+        width: 450px !important;
+    }
+
+    .section-calculation__form-step-2{
+        flex-direction: column !important;
+        justify-content: unset !important;
+        width: 450px !important;
+    }
+
+    .form-label{
+        width: 90% !important;
     }
 
     .form-input{
-        width: 475px;
+        max-width: 460px !important;
+        width: 100% !important;
     }
 
     .form-textarea{
         min-width: 475px;
         max-width: 475px;
-        width: 475px;
+        width: 460px;
     }
 
     .input__file-button{
-        min-width: 474px;
-        max-width: 474px;
-        width: 474px;
+        min-width: 400px !important;
+        max-width: 90% !important;
+        width: 100% !important;
         margin-left: 0 !important;
     }
 
     .submit-container{
-        bottom: -46.5% !important;
-        right: 4.7% !important;
+        bottom: -15.5% !important;
+        right: 13.7% !important;
     }
 
     .section-calculation__content-step-3{
@@ -2202,7 +2219,6 @@ summary ~ * {
 
     .section-us{
         max-width: 576px !important;
-        min-width: 576px !important;
         width: 100% !important;
         padding: 70px 0px;
     }
@@ -2214,7 +2230,7 @@ summary ~ * {
     }
 
     .section-us__heading{
-        width: 100% !important;
+        width: 90% !important;
     }
 
     .section-us__heading::before{
@@ -2222,7 +2238,7 @@ summary ~ * {
     }
 
     .section-us__list{
-        min-width: 4608px !important;
+        min-width: 4320px !important;
         width: 100% !important;
         height: 500px;
         padding-top: 5px;
@@ -2234,8 +2250,8 @@ summary ~ * {
     }
 
     .section-us__item{
-        max-width: 576px;
-        width: 100%;
+        max-width: 540px;
+        width: 540px !important;
         height: 80%;
         display: flex;
         flex-direction: column;
@@ -2257,6 +2273,7 @@ summary ~ * {
 
     .section-us__item-description{
         font-size: 24px;
+        max-width: 90%;
     }
 
     .section-us__slider-dots{
@@ -2265,12 +2282,12 @@ summary ~ * {
 
     .section-delivery, .section-delivery__container{
         max-width: 576px !important;
-        width: 576px !important;
+        width: 100% !important;
     }
 
     .section-delivery__heading{
         max-width: 576px !important;
-        width: 576px !important;
+        width: 100% !important;
     }
 
     .section-delivery__slider-container{
@@ -2293,7 +2310,6 @@ summary ~ * {
 
     .section-services{
         max-width: 576px !important;
-        min-width: 576px !important;
         width: 100% !important;
         padding: 70px 0px;
         margin-top: 50px;
@@ -2301,7 +2317,6 @@ summary ~ * {
 
     .section-services__container, .section-services__heading{
         max-width: 576px !important;
-        min-width: 576px !important;
         width: 100% !important;
     }
 
@@ -2329,7 +2344,6 @@ summary ~ * {
 
     .section-about{
         max-width: 576px !important;
-        min-width: 576px !important;
         width: 100% !important;
         height: 1200px !important;
     }
@@ -2360,13 +2374,14 @@ summary ~ * {
 
     .section-questions{
         min-height: 1500px !important;
+        max-width: 576px !important;
+        width: 100% !important;
     }
 
     .section-questions, .section-questions__content, .section-questions__questions,
     .section-questions__list, .section-questions__item{
         max-width: 576px !important;
-        min-width: 576px !important;
-        width: 576px !important;
+        width: 100% !important;
     }
 
     .section-questions__container{
@@ -2378,7 +2393,7 @@ summary ~ * {
     }
 
     .details, .summary, .section-questions__item-description{
-        width: 95% !important;
+        width: 100% !important;
     }
 
     .section-questions__icon{
@@ -2397,7 +2412,7 @@ summary ~ * {
 
     .section-questions__form-container{
         margin-top: 50px !important;
-        width: 90% !important;
+        width: 100% !important;
         min-height: 600px !important;
     }
 
@@ -2417,8 +2432,7 @@ summary ~ * {
 
     .section-cooperation{
         max-width: 576px !important;
-        min-width: 576px !important;
-        width: 576px !important;
+        width: 100% !important;
         height: 2100px !important;
         margin-top: 30px !important;
         border-radius: 0px !important;
@@ -2476,8 +2490,7 @@ summary ~ * {
 
     .footer{
         max-width: 576px !important;
-        min-width: 576px !important;
-        width: 576px !important;
+        width: 100% !important;
         min-height: 550px !important;
     }
 
