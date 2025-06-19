@@ -1,4 +1,4 @@
-# 🚛 Cargo - Коммерческий проект
+# 🚛 Cargo - первый коммерческий проект
 
 [![Демо](https://img.shields.io/badge/-ДЕМО-FF8C00?style=for-the-badge)](https://ivkovalevv.github.io/cargo/)
 [![Исходники](https://img.shields.io/badge/-КОД-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ivkovalevv/cargo)
